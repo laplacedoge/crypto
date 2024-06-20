@@ -77,7 +77,7 @@ aes_cbc_encrypt(
     size_t len
 );
 
-void
+aes_res
 aes_cbc_decrypt(
     aes_cbc_ctx * ctx,
     void * out,
